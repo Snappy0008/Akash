@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY BIRTHDAY SAROJ</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0e68c; /* Light yellow background color */
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        .content {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-bottom: 1em;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #ff1493; /* Deep pink */
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            animation: fadeIn 4s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #ff69b4; /* Hot pink */
+        }
+
+        #surprise {
+            margin-top: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Happy Birthday, Bachha!</h1>
+        <p>Wishing you a very Happy Birthday to the love of my life! You make every day brighter just by being you.</p>
+        <button onclick="showSurprise()">Click for a Surprise!</button>
+        <div id="surprise" class="hidden">
+            <p>My Dear Saroj,<br>
+			
+"On this special day, I want to celebrate not only your birthday but also the incredible person you are. Your kindness, dedication, and passion inspire me every day. Watching you care for your patients with such compassion makes me admire you even more."
+
+<br>
+
+"I'm grateful for every moment we share and all the memories we've created together. Your smile brightens my world, and your love fills my heart with joy."
+<br>
+
+"Happy Birthday, my love! Here's to many more adventures, laughter, and cherished moments together." <br> 
+
+"My love, you bring so much light and joy into my life every day. Your smile is the brightest part of my world, and your kindness and warmth fill my heart with more love than I ever thought possible. You are my everything, and I am so grateful to have you by my side. I promise to cherish and adore you, always and forever."
+<br>
+Happy Birthday Saroj...!
+</p>
+        </div>
+    </div>
+    <script>
+        function showSurprise() {
+            var surprise = document.getElementById('surprise');
+            surprise.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
